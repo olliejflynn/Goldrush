@@ -20,6 +20,16 @@ const config: Config = {
         'barn_red': { DEFAULT: '#6f1a07', 100: '#160501', 200: '#2c0a03', 300: '#421004', 400: '#581506', 500: '#6f1a07', 600: '#b82b0c', 700: '#f14822', 800: '#f6856b', 900: '#fac2b5' }, 
         'bistre': { DEFAULT: '#2b2118', 100: '#080705', 200: '#110d0a', 300: '#19140e', 400: '#221a13', 500: '#2b2118', 600: '#634c38', 700: '#9c7858', 800: '#bfa58d', 900: '#dfd2c6' }
       },
+      gridTemplateColumns: {
+        // custom grid sizes
+        '16': 'repeat(16, minmax(0, 1fr))',
+        '20': 'repeat(20, minmax(0, 1fr))',
+      },
+      gridTemplateRows: {
+        // custom grid sizes
+        '16': 'repeat(16, minmax(0, 1fr))',
+        '20': 'repeat(20, minmax(0, 1fr))',
+      },
     },
   },
   plugins: [],
